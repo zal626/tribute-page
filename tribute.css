@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{
+  color: #f8f8f2;
+  background-color: #44475a;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+#main{
+  background-color: #282a36;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 2em 0.5em;
+}
+a{
+  color: #8be9fd;
+}
+a:visited{
+  color: #ff79c6;
+}
+#title{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+#img-div{
+  background-color: #44475a;
+  margin: auto 1em;
+  padding: 1em;
+}
+#image{
+  max-width: 100%;
+  height: auto;
+}
+#img-caption{
+  margin: 10px auto 0;
+}
+#info-container{
+  margin: 0 25%;
+  padding: 1em 1.5em 0;
+}
+#info-container h2{
+  margin: 50px auto 50px 0;
+}
+#tribute-info ul{
+  text-align: left;
+  max-width: 550px;
+  margin: 0 0 50px auto;
+}
+#tribute-info li{
+  margin-bottom: 1em;
+}
+blockquote{
+  text-align: left;
+  font-weight: 300;
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 0 50px auto;
+}
+#footer{
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (max-width:600px) {
+  #main,
+  #info-container,
+  #img-div{
+    margin: 0;
+  }
+  #tribute-info ul{
+    margin-left: 0;
+  }
+}
